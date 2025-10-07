@@ -49,7 +49,8 @@ def status():
 
 if __name__ == "__main__":
     
-    print(f"Iniciando Flask en puerto {8000}. Enviando a {https://webhook.site/5ba64671-cd25-49df-8cc7-6af1ecd681dc} cada {10}s")
+    print(f"Iniciando Flask en puerto 8000. Enviando a https://webhook.site/5ba64671-cd25-49df-8cc7-6af1ecd681dc cada 10s")
     app.run(host="0.0.0.0", port=PORT)
+
 
 
