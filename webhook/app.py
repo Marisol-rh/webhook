@@ -40,7 +40,7 @@ def send_loop():
 worker = threading.Thread(target=send_loop, daemon=True)
 worker.start()
 
-@app.get("/status")
+@app.get("/")
 def status():
     return jsonify({
         "running": True,
@@ -49,6 +49,7 @@ def status():
 
 if __name__ == "__main__":
     
-    print(f"Iniciando Flask en puerto {PORT}. Enviando a {ENDPOINT_URL} cada {INTERVAL_SECONDS}s")
+    print(f"Iniciando Flask en puerto {8000}. Enviando a {https://webhook.site/5ba64671-cd25-49df-8cc7-6af1ecd681dc} cada {10}s")
     app.run(host="0.0.0.0", port=PORT)
+
 
